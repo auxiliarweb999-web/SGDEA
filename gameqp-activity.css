@@ -1147,7 +1147,6 @@ div:-webkit-full-screen .gameQP-Question {
 div:-moz-full-screen .gameQP-Question {
 	min-height: 3.2em;
 }
-
 div:fullscreen .gameQP-Multimedia, div:-webkit-full-screen .gameQP-Multimedia, div:-moz-full-screen .gameQP-Multimedia {
 	background-color: #fff;
 	margin: 3em;
@@ -1163,7 +1162,7 @@ div:fullscreen .gameQP-LinkMinimize{
 	height: 100vh;
 	width: 100%;
 	padding-top: 3px;
-	overflow-y:auto;
+    overflow-y: auto;
 }
 
 .gameQP-GameContainer:-moz-full-screen {
@@ -1171,7 +1170,7 @@ div:fullscreen .gameQP-LinkMinimize{
 	height: 100vh;
 	width: 100%;
 	padding-top: 3px;
-	overflow-y:auto;
+    overflow-y: auto;
 }
 
 .gameQP-GameContainer:-ms-full-screen {
@@ -1179,23 +1178,21 @@ div:fullscreen .gameQP-LinkMinimize{
 	height: 100vh;
 	width: 100%;
 	padding-top: 3px;
-	overflow-y:auto;
-}
-
-.gameQP-GameContainer:-o-full-screen {
-	background-color: white;
-	height: 100vh;
-	width: 100%;
-	padding-top: 3px;
-	overflow-y:auto;
+    overflow-y: auto;
 }
 
 .gameQP-GameContainer:fullscreen {
 	background-color: white;
 	height: 100vh;
 	width: 100%;
-	top:3px;
-	overflow-y:auto;
+	padding-top: 3px;
+    overflow-y: auto;
+}
+
+.gameQP-GameContainer:-o-full-screen {
+	background-color: white;
+	height: 100vh;
+	width: 100%;
 }
 
 .gameQP-EvaluationDivIcon{
